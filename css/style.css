@@ -10,10 +10,6 @@
 	font-size: 100px;
 }
 
-.card {
-	outline: 2px solid red;
-}
-
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -26,4 +22,13 @@
 	/*This sets all rows to have equal height. The 1fr unit distributes the available space equally among all rows, ensuring they all have the same height, determined by the tallest item in the grid. */
 	gap: 10px;
 	/* Add spacing between boxes */
+}
+
+.card {
+	outline: 2px solid red;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
 }
