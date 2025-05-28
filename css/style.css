@@ -10,6 +10,13 @@
 	font-size: 100px;
 }
 
+#page_header {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 50px;
+
+	text-align: center;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
