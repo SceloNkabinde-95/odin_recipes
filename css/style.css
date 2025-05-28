@@ -1,4 +1,10 @@
 * {
 	background-color: #fefef4;
 	font-family: "Times New Roman", Times, serif;
+	color: #400000;
+}
+
+#main_page_header {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 100px;
 }
