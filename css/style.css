@@ -25,12 +25,19 @@
 }
 
 .card {
-	outline: 2px solid red;
+	/* outline: 2px solid red; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	font-size: 50px;
+	font-weight: bold;
+
 }
 
 a {
 	text-decoration: none;
 }
+
+a:hover {
+	text-decoration: underline; }
