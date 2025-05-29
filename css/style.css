@@ -102,4 +102,11 @@ a:hover {
 	text-align: center;
 }
 
+.parent {
+	/* width: 100vw;
+	height: 100vh; */
+	
+	display: flex; /* Aligns the children items in a row direction */
+}
+
 /*-----------------------Styling for recipe pages (end)-----------------------*/
