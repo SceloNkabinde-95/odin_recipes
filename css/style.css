@@ -11,22 +11,38 @@
 }
 
 #nav_bar {
+	/* display: block; */
+	/* overflow: hidden; */
 	/* outline: 2px solid red; */
 
-	/* background-color: #fffffe; */
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	left: 0;
+	right: 0;
 
-	padding: 10px;
+	width: 100%; /* Full width */
+
+	padding: 20px;
+
+	border-bottom: 0.5px solid #e7dfdf;
+
 }
 
 .home {
 	text-align: left;
 
 	font-size: 30px;
+
 }
 
 #body_content {
+	/* overflow: hidden; */
+
 	/* outline: 2px solid red; */
-	margin: 0;
+
+	padding: 1px 20px;
+	margin-top: 70px;
+	
 }
 
 #page_header {
