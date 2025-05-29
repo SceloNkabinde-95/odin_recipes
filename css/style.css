@@ -1,3 +1,5 @@
+/*----------------------------CSS styling for all elements--------------------*/
+
 * {
 	box-sizing: border-box;
 	background-color: #fefef4;
@@ -5,10 +7,58 @@
 	color: #400000;
 }
 
+/*---------------------CSS styling for all elements (end)---------------------*/
+
+/*##########################################################################*/
+
+/*----------------------------Styling for index elements----------------------*/
+
 #main_page_header {
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 100px;
 }
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	/* One column, taking up available space */
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	/* This creates a responsive grid where each column is at least 200px wide,
+		but can expand to fill the available space equally. */
+	/* The use of auto-fit and minmax() allows the grid to adapt to different screen sizes, ensuring a flexible and responsive layout.*/
+	grid-auto-rows: 1fr;
+	/*This sets all rows to have equal height. The 1fr unit distributes the available space equally among all rows, ensuring they all have the same height, determined by the tallest item in the grid. */
+	gap: 10px;
+	/* Add spacing between boxes */
+}
+
+.card {
+	/* outline: 2px solid red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: 5px dashed #deded7;
+	border-radius: 15px;
+
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*-----------------------Styling for index elements (end)--------------------*/
+
+/*##########################################################################*/
+
+/*--------------------------Styling for recipe pages-----------------------*/
 
 #nav_bar {
 	/* display: block; */
@@ -52,37 +102,4 @@
 	text-align: center;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 1fr;
-	/* One column, taking up available space */
-	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-	/* This creates a responsive grid where each column is at least 200px wide,
-		but can expand to fill the available space equally. */
-	/* The use of auto-fit and minmax() allows the grid to adapt to different screen sizes, ensuring a flexible and responsive layout.*/
-	grid-auto-rows: 1fr;
-	/*This sets all rows to have equal height. The 1fr unit distributes the available space equally among all rows, ensuring they all have the same height, determined by the tallest item in the grid. */
-	gap: 10px;
-	/* Add spacing between boxes */
-}
-
-.card {
-	/* outline: 2px solid red; */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	border: 5px dashed #deded7;
-	border-radius: 15px;
-
-	font-size: 50px;
-	font-weight: bold;
-
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline; }
+/*-----------------------Styling for recipe pages (end)-----------------------*/
