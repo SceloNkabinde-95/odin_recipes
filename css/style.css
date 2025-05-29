@@ -113,6 +113,10 @@ a:hover {
 
 .left_child {
 	outline: 2px solid red;
+
+	/* padding: auto 10px auto 5px; */
+	padding-left: 5px;
+	padding-right: 30%;
 }
 
 .right_child {
