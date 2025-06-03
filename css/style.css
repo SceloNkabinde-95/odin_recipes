@@ -175,4 +175,12 @@ a:hover {
 	padding-left: 20px;
 }
 
+.right_child h2 {
+	text-align: center;
+}
+
+li {
+	padding: 5px;
+}
+
 /*-----------------------Styling for recipe pages (end)-----------------------*/
