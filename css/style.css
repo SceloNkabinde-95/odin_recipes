@@ -125,6 +125,11 @@ a:hover {
 	border-right: 0.5px solid #e7dfdf;
 }
 
+img {
+	position:relative;
+	left: 10%;
+}
+
 .overlay {
 	text-align: center;
 	width: 70%;
