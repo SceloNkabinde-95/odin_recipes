@@ -127,7 +127,22 @@ a:hover {
 }
 
 .overlay {
+	text-align: center;
+	width: 70%;
+	height: 20%;
+	background-color: rgb(255 255 255/10%);
+	backdrop-filter: blur(10px);
+}
 
+.overlay h4 {
+	font-size: 25px;
+	background-color: rgb(255 255 255/10%);
+	backdrop-filter: blur(10px);
+}
+
+.overlay p {
+	background-color: rgb(255 255 255/10%);
+	backdrop-filter: blur(10px);
 }
 
 
