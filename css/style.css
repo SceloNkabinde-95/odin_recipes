@@ -118,7 +118,7 @@ a:hover {
 
 /* width: 200px;
 	height: 100px; */
-	height: 70vh;
+	height: 80vh;
 	/*vh stands for viewport height. This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height*/
 	background-image: url("../images/caesar-salad.webp");
 	background-size: cover;
@@ -133,21 +133,30 @@ a:hover {
 	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
 	position: relative;
-	top: 70%;
+	top: 65%;
 	left: 31%;
 	translate: -25% -25%;
 }
 
 .overlay h4 {
-	font-size: 25px;
+	font-size: 30px;
 	background-color: rgb(255 255 255/20%);
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px); 
+	color: black;
+	font-weight: bold;
+	margin: 0;
 }
 
 .overlay p {
+	border-top: 0.5px solid #e7dfdf;
+	padding-top: 25px;
+	font-size: 20px;
 	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
-}
+	color: black;
+	font-weight: bold;
+	margin: 0;
+} 
 
 
 /*Right child styling*/
