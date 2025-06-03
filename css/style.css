@@ -103,7 +103,7 @@ a:hover {
 }
 
 .parent {
-	outline: 2px solid red;
+	/* outline: 2px solid red; */
 	display: flex; /* Aligns the children items in a row direction */
 	flex-direction: row;
 	padding: 10px;
@@ -112,7 +112,7 @@ a:hover {
 
 /*Left child styling*/
 .left_child {
-	outline: 2px solid red;
+	/* outline: 2px solid red; */
 	margin-right: 10px;
 	flex: 1 1 auto;
 
@@ -124,6 +124,8 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	/* Optional: for centering the image */
+	padding-right: 2px;
+	border-right: 0.5px solid #e7dfdf;
 }
 
 .overlay {
@@ -135,7 +137,7 @@ a:hover {
 	position: relative;
 	top: 75%;
 	left: 31%;
-	translate: -25% -25%;
+	translate: -25% -25%; 
 }
 
 .overlay h4 {
@@ -159,10 +161,15 @@ a:hover {
 	margin: 0;
 } 
 
+/*Midlle child styling*/
+
+.middle_child {
+	border-right: 5px solid #e7dfdf;
+}
 
 /*Right child styling*/
 .right_child {
-	outline: 2px solid red;
+	/* outline: 2px solid red; */
 	flex: 2 1 auto;
 }
 
