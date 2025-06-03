@@ -127,7 +127,7 @@ a:hover {
 
 img {
 	position:relative;
-	left: 10%;
+	left: 5%;
 }
 
 .overlay {
@@ -164,13 +164,6 @@ img {
 	/* font-weight: bold; */
 	margin: 0;
 } 
-
-/*Middle child styling*/
-
-.middle_child {
-	border-right: 5px solid #e7dfdf;
-	padding-left: 10px;
-}
 
 /*Right child styling*/
 .right_child {
