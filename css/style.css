@@ -178,10 +178,13 @@ a:hover {
 }
 
 .right_child h2 {
+	font-size: 30px;
+	font-weight: bold;
 	text-align: center;
 }
 
 li {
+	font-size: 18px;
 	padding: 5px;
 }
 
