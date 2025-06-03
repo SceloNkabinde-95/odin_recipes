@@ -141,6 +141,8 @@ a:hover {
 }
 
 .overlay h4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
 	font-size: 30px;
 	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px); 
@@ -152,7 +154,7 @@ a:hover {
 .overlay p {
 	border-top: 0.5px solid #e7dfdf;
 	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-bottom: 45px;
 	font-size: 20px;
 	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
