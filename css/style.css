@@ -130,18 +130,22 @@ a:hover {
 	text-align: center;
 	width: 70%;
 	height: 20%;
-	background-color: rgb(255 255 255/10%);
+	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
+	position: relative;
+	top: 70%;
+	left: 31%;
+	translate: -25% -25%;
 }
 
 .overlay h4 {
 	font-size: 25px;
-	background-color: rgb(255 255 255/10%);
+	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
 }
 
 .overlay p {
-	background-color: rgb(255 255 255/10%);
+	background-color: rgb(255 255 255/20%);
 	backdrop-filter: blur(10px);
 }
 
