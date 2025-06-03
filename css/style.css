@@ -118,7 +118,7 @@ a:hover {
 
 /* width: 200px;
 	height: 100px; */
-	height: 110vh;
+	height: 90vh;
 	/*vh stands for viewport height. This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height*/
 	background-image: url("../images/caesar-salad.webp");
 	background-size: cover;
